@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#mainframe {
+  background-image: url("back.jpg");
+  background-size: cover;
+}
+body {
+  background-color: bisque;
+}
+a {
+  text-decoration: none;
+  color: teal;
+  margin: 50px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+  color: mediumseagreen;
+}
+#nav {
+  text-align: right;
+  position: relative;
+  top: 20px;
+}
+#logo {
+  position: absolute;
+  top: 0px;
+}
+#form {
+  position: relative;
+  top: 100px;
+  left: 1010px;
+  background-color: transparent;
+  height: 400px;
+  color: wheat;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#form #butt {
+  height: 30px;
+  font-size: 20px;
+  width: 170px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: orange;
+}
+label {
+  font-size: 20px;
+}
+#restext {
+  position: absolute;
+  top: 150px;
+  left: 130px;
+  color: #ffcc00;
+}
+#restext h1 {
+  font-size: 100px;
+}
+#restext h3 {
+  position: inherit;
+  left: 50px;
+  font-size: 50px;
+}
+#imggal {
+  position: relative;
+  top: 10px;
+}
+.gal {
+  position: relative;
+  top: 0px;
+  left: 100px;
+  float: left;
+  border: 2px solid;
+  margin: 80px;
+  padding: 30px;
+}
+.gal img {
+  height: 150px;
+  width: 200px;
+}
+.gal p {
+  font-size: 30px;
+  color: gray;
+  text-align: center;
+}
+.gal:hover {
+  transform: scale(1.5);
+  border: none;
+}
+#but {
+  position: relative;
+  top: 100px;
+  left: 150px;
+  height: 30px;
+  font-size: 20px;
+  width: 170px;
+  color: black;
+  background-color: orange;
+  border-radius: 10px;
+}
+#menuicon h1 {
+  position: absolute;
+  top: 440px;
+  font-size: 50px;
+  left: 690px;
+}
